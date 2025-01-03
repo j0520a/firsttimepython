@@ -4,7 +4,7 @@
 #must be indented twice if nested. And don't forget
 #to put the : after the if statement, and nest the
 #next condition by pressing tab again.
-
+#elif is short for else if
 
 def greet():
     print("My name is Josh")
@@ -112,3 +112,15 @@ def is_balance_low(balance: int) -> None:
 is_balance_low(99)
 is_balance_low(100)
 is_balance_low(101)
+
+def pay_bill(balance: int, bill: int) -> int:
+    if (balance >= bill):
+        balance -= bill
+        return balance
+    return balance
+
+
+# do not modify below this line
+print(pay_bill(100, 50))
+print(pay_bill(100, 100))
+print(pay_bill(100, 150))
