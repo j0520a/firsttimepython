@@ -1,7 +1,9 @@
 #indent your if statements and functions!!!
 #so python knows when to check before running
 #the code. Otherwise, it will run if not indented.
-#must be indented twice if nested
+#must be indented twice if nested. And don't forget
+#to put the : after the if statement, and nest the
+#next condition by pressing tab again.
 
 
 def greet():
@@ -100,3 +102,13 @@ print("4 is less than or equal to 3:", check_less_than_or_equal(4, 3))
 
 print("3 is greater than or equal to 3:", check_greater_than_or_equal(3, 3))
 print("2 is greater than or equal to 3:", check_greater_than_or_equal(2, 3))
+
+def is_balance_low(balance: int) -> None:
+    if (balance <= 100):
+        print("Warning: Low balance.")
+
+
+# do not modify below this line
+is_balance_low(99)
+is_balance_low(100)
+is_balance_low(101)
