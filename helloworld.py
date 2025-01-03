@@ -18,3 +18,17 @@ print("I'm learning Python ")
 add_numbers(2,2)
 multiply_numbers(4,4)
 print_phrases("You are", "a dummy")
+
+
+#from NeetCode tutorial
+def farewell(item):
+    print("Goodbye, " + item)
+
+farewell("Bob")
+farewell("Charlie")
+
+
+
+
+# don't modify below this line
+farewell("NeetCode")
